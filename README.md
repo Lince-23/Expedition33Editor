@@ -3,6 +3,6 @@ This project will be an Android application that will allow the user to consult 
 
 The project will be develop in kotlin multiplatform & compose multiplatform and will try to integrate an AI in the builds 
 
-The development is expected to start soon 2026
+The develop is expected to start soon 2026
 
 The app name is provisional
