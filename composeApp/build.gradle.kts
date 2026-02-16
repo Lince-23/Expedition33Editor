@@ -44,12 +44,14 @@ kotlin {
             implementation(libs.androidx.lifecycle.runtimeCompose)
 
             //Firebase KMP
-            implementation(project.dependencies.platform("io.github.romancanoniero:firebase-bom:1.2.3"))
             implementation(libs.firebase.database)
 
             //Koin
+            implementation(project.dependencies.platform("io.insert-koin:koin-bom:4.2.0-RC1"))
             implementation(libs.koin.compose)
             implementation(libs.koin.compose.viewmodel)
+            implementation(libs.koin.compose.viewmodel.navigation)
+            implementation(libs.koin.core)
 
         }
         commonTest.dependencies {
