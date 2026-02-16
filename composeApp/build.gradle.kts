@@ -42,6 +42,11 @@ kotlin {
             implementation(libs.compose.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.androidx.lifecycle.runtimeCompose)
+
+            //Firebase KMP
+            implementation(project.dependencies.platform("io.github.romancanoniero:firebase-bom:1.2.3"))
+            implementation(libs.firebase.database)
+
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
