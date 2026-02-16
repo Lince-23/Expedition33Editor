@@ -1,3 +1,11 @@
+---
+name: Feature Template
+about: Main feature template
+title: ""
+type: feature
+assignees: ''
+---
+
 ## 🎯 Historia de usuario
 
 Como Rol: Usuario/Desarrollador/Product Manager/etc.,
