@@ -1,4 +1,5 @@
 package com.lince23.expedition33editor.theme
+
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
@@ -252,8 +253,6 @@ fun AppTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     highContrast: Boolean = false,
     mediumContrast: Boolean = false,
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = false,
     content: @Composable() () -> Unit
 ) {
     val colorScheme = when {
@@ -268,11 +267,9 @@ fun AppTheme(
         darkTheme -> darkScheme
         else -> lightScheme
     }
-      
-  MaterialTheme(
-    colorScheme = colorScheme,
-    typography = AppTypography(),
-    content = content
-  )
+    MaterialTheme(
+        colorScheme = colorScheme,
+        typography = AppTypography(),
+        content = content
+    )
 }
-
