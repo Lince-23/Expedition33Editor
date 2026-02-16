@@ -1,3 +1,11 @@
+---
+name: Bug Template
+about: Main bug template
+title: ""
+type: bug
+assignees: ''
+---
+
 ## 🎯 Descripción del bug
 
 ## 🐞Capturas del bug
