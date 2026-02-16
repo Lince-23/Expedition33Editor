@@ -1,3 +1,12 @@
+---
+name: Task Template
+about: Main task template
+title: ""
+type: task
+assignees: ''
+
+---
+
 ## 🎯Objetivo de esta Tarea
 
 ## 👩🏽‍🎨 Interfaz de usuario
