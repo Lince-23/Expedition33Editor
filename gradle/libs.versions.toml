@@ -12,6 +12,7 @@ androidx-testExt = "1.3.0"
 composeHotReload = "1.0.0"
 composeMultiplatform = "1.10.1"
 junit = "4.13.2"
+koinComposeViewmodel = "4.2.0-RC1"
 kotlin = "2.3.10"
 kotlinx-coroutines = "1.10.2"
 material3 = "1.10.0-alpha05"
@@ -38,6 +39,10 @@ kotlinx-coroutinesSwing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-s
 
 #Firebase
 firebase-database = { module = "io.github.romancanoniero:firebase-database" }
+
+#Koin
+koin-compose = { module = "io.insert-koin:koin-compose", version.ref = "koinComposeViewmodel" }
+koin-compose-viewmodel = { module = "io.insert-koin:koin-compose-viewmodel", version.ref = "koinComposeViewmodel" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

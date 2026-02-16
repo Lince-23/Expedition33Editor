@@ -47,6 +47,10 @@ kotlin {
             implementation(project.dependencies.platform("io.github.romancanoniero:firebase-bom:1.2.3"))
             implementation(libs.firebase.database)
 
+            //Koin
+            implementation(libs.koin.compose)
+            implementation(libs.koin.compose.viewmodel)
+
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
