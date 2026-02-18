@@ -3,6 +3,6 @@ This project will be an Android/Multiplatform application that will allow the us
 
 The project will be develop in kotlin multiplatform & compose multiplatform and will try to integrate an AI in the builds 
 
-The develop is expected to start soon 2026
+The develop is finally started!!
 
 The app name is provisional
